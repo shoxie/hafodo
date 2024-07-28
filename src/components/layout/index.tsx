@@ -22,11 +22,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         },
       }}
     >
-      <div className="z-20">
+      <div className="z-20 bg-black">
         <Header />
       </div>
 
-      <main className="z-10">{children}</main>
+      <main className="z-10 bg-black">{children}</main>
     </Box>
   );
 };

@@ -29,6 +29,11 @@ const theme = extendTheme({
     ],
     body: '"IBM Plex Sans", sans-serif',
   },
+  default: {
+    body: {
+      bg: "black",
+    },
+  }
 })
 
 export default function App({ Component, pageProps }: AppProps) {
