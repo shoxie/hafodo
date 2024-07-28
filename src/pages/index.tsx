@@ -34,7 +34,9 @@ const Home = () => {
             transition={{ duration: 0.7 }}
             className="p-1.5 bg-white rounded-full"
           >
-            <LuFacebook className="text-3xl text-black" />
+            <a href="https://www.facebook.com/profile.php?id=100089124546789" target="_blank">
+              <LuFacebook className="text-3xl text-black" />
+            </a>
           </motion.div>
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -42,7 +44,9 @@ const Home = () => {
             transition={{ duration: 1.2 }}
             className="p-1.5 bg-white rounded-full"
           >
-            <RiInstagramLine className="text-3xl text-black" />
+            <a href="https://www.instagram.com/hafodo" target="_blank">
+              <RiInstagramLine className="text-3xl text-black" />
+            </a>
           </motion.div>
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -50,7 +54,9 @@ const Home = () => {
             transition={{ duration: 1.5 }}
             className="p-1.5 bg-white rounded-full"
           >
-            <LuPhone className="text-3xl text-black" />
+            <a href="tel:+84879556264">
+              <LuPhone className="text-3xl text-black" />
+            </a>
           </motion.div>
         </div>
       </div>
